@@ -1,0 +1,110 @@
+body{
+   background-color: #dadada;
+}
+
+h1 {
+  font-family: 'Pixelify Sans', cursive;
+  font-size: 100px;
+  margins: auto;
+}
+
+.layout {
+  width: 1366px;
+  height: 768px;
+  display: grid;
+  grid:
+    "header" auto
+    "main" 1fr
+    "footer" auto
+    / 1fr;
+  gap: 8px;
+}
+
+.header {
+  grid-area: header;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 0.5px solid black;
+  width: 30px;
+  height: 30px;  
+  padding: 5px;
+}
+
+.grow1{
+  flex-grow: 0.1; 
+  text-align: center;
+  font-family: 'Handjet', cursive;
+  color: black;
+  text-decoration: none;
+}
+
+.main {
+  grid-area: main;
+  margin: auto;
+}
+
+#fulllife{
+  font-family: 'Pixelify Sans', cursive;
+  font-style: italic;
+  z-index: -2;
+}
+
+#metal{
+  padding-top: 30px;
+  margin: auto auto;
+  width: 90%;
+  position: absolute;
+  top: 1%;
+  z-index: -1;
+  left: 40%;
+}
+
+#avalon {
+  font-family: 'Pixelify Sans', cursive;
+  font-size: 100px;
+  z-index: 2;
+  margin: auto;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+ .draggable {
+    position: absolute;
+    z-index: 1;
+  }
+
+  .draggable img {
+    width: 60%;
+    cursor: grab;
+    transition: box-shadow 0.3s ease;
+  }
+
+#cards {
+  width: 60%;
+}
+
+.about{
+  display: flex;
+  justify-content:space-evenly;
+  gap: 16px;
+  flex-grow: 1
+}
+
+.about img{
+  height: 40%;
+  padding: 20px;
+  margin: auto auto;
+}
+
+.about p1{
+  padding: 20px;
+}
