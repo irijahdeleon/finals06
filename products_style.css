@@ -31,7 +31,6 @@ h1 {
     "footer" auto
     / 1fr;
   gap: 8px;
-  padding-bottom: ;
 }
 
 .header {
@@ -51,10 +50,10 @@ h1 {
   padding: 5px;
 }
 
-.grow1 {
-  flex-grow: 0.1;
+.grow1{
+  flex-grow: 0.1; 
   text-align: center;
-  font-family: "Handjet", cursive;
+  font-family: '5by7regular';
   color: black;
   text-decoration: none;
 }
